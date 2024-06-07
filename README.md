@@ -9,7 +9,18 @@ age	salary	height	gender
 35	80000	180	wanita
 28	55000	165	pria
 
-Tabel 3: Jumlah Nilai Unik dalam Setiap Kolom
+Tabel 2: Statistik Deskriptif dari Kolom Numerik
+             age        salary      height
+count   5.000000      5.000000    5.000000
+mean   28.000000  58000.000000  171.600000
+std     4.242641  13717.621436    5.123475
+min    22.000000  45000.000000  165.000000
+25%    25.000000  50000.000000  168.000000
+50%    28.000000  55000.000000  170.000000
+75%    30.000000  60000.000000  175.000000
+max    35.000000  80000.000000  180.000000
+
+Tabel 3 : Jumlah Nilai Unik dalam Setiap Kolom
 Column	Unique Values
 age        	5
 salary    	5
@@ -48,9 +59,41 @@ Tinggi badan terendah adalah 165 cm dan tertinggi adalah 180 cm.
 Kuartil pertama (25%) dan kuartil ketiga (75%) masing-masing adalah 168 cm dan 175 cm.
 
 Tabel 3: Jumlah Nilai Unik dalam Setiap Kolom
+
 Tabel ini menunjukkan jumlah nilai unik dalam setiap kolom. Dari tabel ini:
 Usia, gaji, dan tinggi badan masing-masing memiliki 5 nilai unik, yang berarti setiap individu dalam dataset memiliki usia, gaji, dan tinggi badan yang berbeda.
 Jenis kelamin memiliki 2 nilai unik, yaitu "pria" dan "wanita".
+
+VISUALISASI DATA
+
+Berikut adalah visualisasi dari data yang telah dianalisis menggunakan matplotlib:
+
+Scatter Plot: Age vs Salary
+Histogram: Distribution of Salary
+Box Plot: Distribution of Height
+Bar Plot: Count of Gender
+
+PENJELASAN VISUALIASI DATA
+
+1. Scatter Plot: Age vs Salary
+
+Scatter plot ini menunjukkan hubungan antara usia (age) dan gaji (salary). Kita dapat melihat bagaimana gaji cenderung meningkat seiring bertambahnya usia.
+Ada beberapa outliers yang bisa jadi menarik untuk diteliti lebih lanjut.
+
+2. Histogram: Distribution of Salary
+
+Histogram ini menunjukkan distribusi gaji dalam dataset. Kita dapat melihat distribusi gaji di antara individu dan menentukan apakah distribusi tersebut mirip dengan distribusi normal atau terdapat skewness.
+Rentang gaji bervariasi dari sekitar 45000 hingga 80000.
+
+3. Box Plot: Distribution of Height
+
+Box plot ini menunjukkan distribusi tinggi badan. Dari box plot, kita dapat melihat rentang interkuartil, median, dan outliers (jika ada).
+Tinggi badan berkisar antara 165 hingga 180.
+
+4. Bar Plot: Count of Gender
+
+Bar plot ini menunjukkan jumlah individu dalam setiap kategori jenis kelamin. Kita dapat melihat apakah dataset seimbang dalam hal jenis kelamin.
+Jumlah pria dan wanita terlihat seimbang dalam contoh data ini.
 
 ![Screenshot 2024-06-07 131317](https://github.com/salwasalsabila12/ANALISISDATAGAJI/assets/167194809/108561bb-f2e2-4d1d-830a-65cc30af5fcf)
 
