@@ -1,68 +1,66 @@
 # ANALISISDATAGAJI
 Salwa Salsabila Nurman_12030122140232
 
-Tabel 1: Lima Baris Pertama Data
-age	salary	height	gender
-25	50000	170	pria
-30	60000	175	wanita
-22	45000	168	pria
-35	80000	180	wanita
-28	55000	165	pria
+### Tabel 1: Lima Baris Pertama Data
 
-Tabel 2: Statistik Deskriptif dari Kolom Numerik
-             age        salary      height
-count   5.000000      5.000000    5.000000
-mean   28.000000  58000.000000  171.600000
-std     4.242641  13717.621436    5.123475
-min    22.000000  45000.000000  165.000000
-25%    25.000000  50000.000000  168.000000
-50%    28.000000  55000.000000  170.000000
-75%    30.000000  60000.000000  175.000000
-max    35.000000  80000.000000  180.000000
+| age | salary | height | gender |
+|-----|--------|--------|--------|
+| 25  | 50000  | 170    | pria   |
+| 30  | 60000  | 175    | wanita |
+| 22  | 45000  | 168    | pria   |
+| 35  | 80000  | 180    | wanita |
+| 28  | 55000  | 165    | pria   |
 
-Tabel 3 : Jumlah Nilai Unik dalam Setiap Kolom
-Column	Unique Values
-age        	5
-salary    	5
-height    	5
-gender    	2
+### Tabel 2: Statistik Deskriptif dari Kolom Numerik
+
+|       | age      | salary       | height     |
+|-------|----------|--------------|------------|
+| count | 5.000000 | 5.000000     | 5.000000   |
+| mean  | 28.000000| 58000.000000 | 171.600000 |
+| std   | 4.242641 | 13717.621436 | 5.123475   |
+| min   | 22.000000| 45000.000000 | 165.000000 |
+| 25%   | 25.000000| 50000.000000 | 168.000000 |
+| 50%   | 28.000000| 55000.000000 | 170.000000 |
+| 75%   | 30.000000| 60000.000000 | 175.000000 |
+| max   | 35.000000| 80000.000000 | 180.000000 |
+
+### Tabel 3: Jumlah Nilai Unik dalam Setiap Kolom
+
+| Column | Unique Values |
+|--------|---------------|
+| age    | 5             |
+| salary | 5             |
+| height | 5             |
+| gender | 2             |
 
 INTERPRETASI DATA
 
-Tabel 1: Lima Baris Pertama Data
-Tabel ini menunjukkan lima baris pertama dari dataset yang berisi informasi tentang usia (age), gaji (salary), tinggi badan (height), dan jenis kelamin (gender). Berdasarkan tabel ini:
+#### Tabel 1: Lima Baris Pertama Data
+Tabel ini menunjukkan lima baris pertama dari dataset yang berisi informasi tentang usia (`age`), gaji (`salary`), tinggi badan (`height`), dan jenis kelamin (`gender`). Berdasarkan tabel ini:
+- Kita memiliki data dari 5 individu dengan usia berkisar antara 22 hingga 35 tahun.
+- Gaji berkisar antara 45,000 hingga 80,000.
+- Tinggi badan berkisar antara 165 cm hingga 180 cm.
+- Jenis kelamin terdiri dari dua kategori: pria dan wanita.
 
-Kita memiliki data dari 5 individu dengan usia berkisar antara 22 hingga 35 tahun.
-
-Gaji berkisar antara 45,000 hingga 80,000.
-
-Tinggi badan berkisar antara 165 cm hingga 180 cm.
-
-Jenis kelamin terdiri dari dua kategori: pria dan wanita.
-
-Tabel 2: Statistik Deskriptif dari Kolom Numerik
+#### Tabel 2: Statistik Deskriptif dari Kolom Numerik
 Tabel ini memberikan statistik deskriptif dari kolom numerik (age, salary, dan height). Dari tabel ini:
+- **Usia**:
+  - Rata-rata usia adalah 28 tahun dengan standar deviasi sekitar 4.24 tahun.
+  - Usia termuda adalah 22 tahun dan tertua adalah 35 tahun.
+  - Kuartil pertama (25%) dan kuartil ketiga (75%) masing-masing adalah 25 tahun dan 30 tahun.
+- **Gaji**:
+  - Rata-rata gaji adalah 58,000 dengan standar deviasi sekitar 13,717.
+  - Gaji terendah adalah 45,000 dan tertinggi adalah 80,000.
+  - Kuartil pertama (25%) dan kuartil ketiga (75%) masing-masing adalah 50,000 dan 60,000.
+- **Tinggi Badan**:
+  - Rata-rata tinggi badan adalah 171.6 cm dengan standar deviasi sekitar 5.12 cm.
+  - Tinggi badan terendah adalah 165 cm dan tertinggi adalah 180 cm.
+  - Kuartil pertama (25%) dan kuartil ketiga (75%) masing-masing adalah 168 cm dan 175 cm.
 
-Usia:
-Rata-rata usia adalah 28 tahun dengan standar deviasi sekitar 4.24 tahun.
-Usia termuda adalah 22 tahun dan tertua adalah 35 tahun.
-Kuartil pertama (25%) dan kuartil ketiga (75%) masing-masing adalah 25 tahun dan 30 tahun.
-
-Gaji:
-Rata-rata gaji adalah 58,000 dengan standar deviasi sekitar 13,717.
-Gaji terendah adalah 45,000 dan tertinggi adalah 80,000.
-Kuartil pertama (25%) dan kuartil ketiga (75%) masing-masing adalah 50,000 dan 60,000.
-
-Tinggi Badan:
-Rata-rata tinggi badan adalah 171.6 cm dengan standar deviasi sekitar 5.12 cm.
-Tinggi badan terendah adalah 165 cm dan tertinggi adalah 180 cm.
-Kuartil pertama (25%) dan kuartil ketiga (75%) masing-masing adalah 168 cm dan 175 cm.
-
-Tabel 3: Jumlah Nilai Unik dalam Setiap Kolom
-
+#### Tabel 3: Jumlah Nilai Unik dalam Setiap Kolom
 Tabel ini menunjukkan jumlah nilai unik dalam setiap kolom. Dari tabel ini:
-Usia, gaji, dan tinggi badan masing-masing memiliki 5 nilai unik, yang berarti setiap individu dalam dataset memiliki usia, gaji, dan tinggi badan yang berbeda.
-Jenis kelamin memiliki 2 nilai unik, yaitu "pria" dan "wanita".
+- **Usia, gaji, dan tinggi badan** masing-masing memiliki 5 nilai unik, yang berarti setiap individu dalam dataset memiliki usia, gaji, dan tinggi badan yang berbeda.
+- **Jenis kelamin** memiliki 2 nilai unik, yaitu "pria" dan "wanita".
 
 VISUALISASI DATA
 
