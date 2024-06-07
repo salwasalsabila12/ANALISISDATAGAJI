@@ -1,4 +1,4 @@
-# ANALISISDATAGAJI
+# ANALISIS-DATA-GAJI
 Salwa Salsabila Nurman_12030122140232
 
 ### Tabel 1: Lima Baris Pertama Data
