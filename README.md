@@ -1,0 +1,2 @@
+# ANALISISDATAGAJI
+Salwa Salsabila Nurman_12030122140232
